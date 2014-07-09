@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Festaxian</string>
+    <string name="pref_debug_mode">Turn on Debug Mode</string>
+    <string name="pref_debug_mode_summary">Shows collision boxes, fleet positions and debugging registers.</string>
+
+
+    <string name="pref_show_controls">Show on screen controls</string>
+    <string name="pref_show_controls_summary">Touch buttons for left, right and fire will be shown.</string>
+
+    <string name="pref_graphics_style">Graphical Style</string>
+
+    <string-array name="pref_graphics_style_entries">
+        <item>Classic</item>
+        <item>Modern</item>
+    </string-array>
+
+    <string-array name="pref_graphics_style_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

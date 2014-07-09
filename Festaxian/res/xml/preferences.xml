@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_debug_mode"
+        android:title="@string/pref_debug_mode"
+        android:summary="@string/pref_debug_mode_summary"
+        android:defaultValue="false"
+    />
+    <CheckBoxPreference
+        android:key="pref_show_controls"
+        android:title="@string/pref_show_controls"
+        android:summary="@string/pref_show_controls_summary"
+        android:defaultValue="true"
+    />
+    <ListPreference
+        android:key="pref_graphics_style"
+        android:title="@string/pref_graphics_style"
+        android:dialogTitle="@string/pref_graphics_style"
+        android:entries="@array/pref_graphics_style_entries"
+        android:entryValues="@array/pref_graphics_style_values"
+        android:defaultValue="1"
+    />
+
+</PreferenceScreen>
